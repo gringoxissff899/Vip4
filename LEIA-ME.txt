@@ -1,0 +1,13 @@
+HTML GRINGOZIN COM API CONFIGURADA
+
+API usada:
+https://swdfgrjn-1.onrender.com
+
+Senha do HTML:
+GRINGOZIN803
+
+O login é verificado no próprio HTML. Depois do login, o HTML chama:
+- /api/status
+- /api/toggle
+
+A API precisa permitir CORS para que um HTML hospedado em outro domínio consiga chamar o endpoint. Se o navegador bloquear a chamada, o backend original precisa adicionar Access-Control-Allow-Origin para o domínio do seu site.
